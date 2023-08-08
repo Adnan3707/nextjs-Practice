@@ -1,0 +1,23 @@
+.analytics div{
+    display: inline-block;
+}
+.analytics h1{
+  position:sticky ;
+}
+.analytics .video-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.analytics  .video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }

@@ -1,0 +1,12 @@
+.DemoPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/gc graphics/2.png');
+    background-size:cover ; /* Adjust the background size */
+    background-position: right; /* Adjust the background position */
+}
+.Demo-heading{
+
+}

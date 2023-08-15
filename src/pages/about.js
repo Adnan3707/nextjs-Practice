@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2';
 import Pi from "../components/pieChart";
 import {CategoryScale} from 'chart.js';
 import Chart from 'chart.js/auto'; 
-import AnalyChart from '../components/barChart.tsx'
+import AnalyChart from '../components/barChart.js'
 import {A as TopicsData} from '../../dummyData.js'
 import  '../Styles/about.css'
 Chart.register(CategoryScale);
